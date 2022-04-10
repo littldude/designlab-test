@@ -26,7 +26,9 @@
                         <a href="#" class="header__menu--item link">Бассейны</a>
                         <a href="#" class="header__menu--item link">SPA-комплексы</a>
                         <a href="#" class="header__menu--item link">Камины</a>
-                        <a href="#" class="header__menu--item link">Еще</a>
+                        <a href="#" class="header__menu--item link--more">Еще
+                            <svg><use href="sprite.svg#arrow"></use></svg>
+                        </a>
                     </div>
                 </div>
                 <div class="header__inner--col login">
@@ -66,49 +68,329 @@
                     <a href="#" class="filter__inner--item link">Новизна</a>
                     <a href="#" class="filter__inner--item link">Цена</a>
                 </div>
-                <a id="filter-show" class="link link--filter" href="#">
-                    <span>Скрыть фильтр</span>
+                <a id="filter__button" class="filter__button" href="#">
+                    <svg><use href="sprite.svg#filter"></use></svg>
+                    <span id="link--filter" class="link--filter">Скрыть фильтр</span>
                 </a>
             </div>
-            <div class="content">
+            <div class="content" id="content">
                 <div class="content__inner">
-                    <div class="content__inner--item">
-                        <img src="img/image 20.png">
-                    </div>
-                    <div class="content__inner--item">
-                        <img src="img/image 20.png">
-                    </div>
-                    <div class="content__inner--item">
-                        <img src="img/image 20.png">
-                    </div>
-                    <div class="content__inner--item">
-                        <img src="img/image 20.png">
-                    </div>
-                    <div class="content__inner--item">
-                        <img src="img/image 20.png">
-                    </div>
+                    <div class="content__inner--item" data-company="Tvoy Par">
+                        <div class="content__img">
+                            <img src="img/img-1.png">
+                            <div class="content__inner--feedback">
+                                <a href="#" class="comment">
+                                    <svg><use href="sprite.svg#comment"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a>
+                                <a href="#" class="favourite">
+                                    <svg><use href="sprite.svg#like"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="content__inner--text">
+                            <span class="text text--content text--bold">Сауна • 34 м2 • EOS</span>
+                            <span class="text text--content">Москва, квартира</span>
+                            <span class="text">Твой пар</span>
+                        </div>
+                    </div> 
+                    <div class="content__inner--item" data-company="Tvoy Par">
+                        <div class="content__img">
+                            <img src="img/img-2.png">
+                            <div class="content__inner--feedback">
+                                <a href="#" class="comment">
+                                    <svg><use href="sprite.svg#comment"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a>
+                                <a href="#" class="favourite">
+                                    <svg><use href="sprite.svg#like"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="content__inner--text">
+                            <span class="text text--content text--bold">Сауна • 34 м2 • EOS</span>
+                            <span class="text text--content">Москва, квартира</span>
+                            <span class="text">Твой пар</span>
+                        </div>
+                    </div> 
+                    <div class="content__inner--item" data-company="Tvoy Par">
+                        <div class="content__img">
+                            <img src="img/img-3.png">
+                            <div class="content__inner--feedback">
+                                <a href="#" class="comment">
+                                    <svg><use href="sprite.svg#comment"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a>
+                                <a href="#" class="favourite">
+                                    <svg><use href="sprite.svg#like"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="content__inner--text">
+                            <span class="text text--content text--bold">Сауна • 34 м2 • EOS</span>
+                            <span class="text text--content">Москва, квартира</span>
+                            <span class="text">Твой пар</span>
+                        </div>
+                    </div> 
+                    <div class="content__inner--item" data-company="Tvoy Par">
+                        <div class="content__img">
+                            <img src="img/img-4.png">
+                            <div class="content__inner--feedback">
+                                <a href="#" class="comment">
+                                    <svg><use href="sprite.svg#comment"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a>
+                                <a href="#" class="favourite">
+                                    <svg><use href="sprite.svg#like"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="content__inner--text">
+                            <span class="text text--content text--bold">Сауна • 34 м2 • EOS</span>
+                            <span class="text text--content">Москва, квартира</span>
+                            <span class="text">Твой пар</span>
+                        </div>
+                    </div> 
+                    <div class="content__inner--item" data-company="Tvoy Par">
+                        <div class="content__img">
+                            <img src="img/img-5.png">
+                            <div class="content__inner--feedback">
+                                <a href="#" class="comment">
+                                    <svg><use href="sprite.svg#comment"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a>
+                                <a href="#" class="favourite">
+                                    <svg><use href="sprite.svg#like"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="content__inner--text">
+                            <span class="text text--content text--bold">Сауна • 34 м2 • EOS</span>
+                            <span class="text text--content">Москва, квартира</span>
+                            <span class="text">Твой пар</span>
+                        </div>
+                    </div> 
+                    <div class="content__inner--item" data-company="Tvoy Par">
+                        <div class="content__img">
+                            <img src="img/img-6.png">
+                            <div class="content__inner--feedback">
+                                <a href="#" class="comment">
+                                    <svg><use href="sprite.svg#comment"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a>
+                                <a href="#" class="favourite">
+                                    <svg><use href="sprite.svg#like"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="content__inner--text">
+                            <span class="text text--content text--bold">Сауна • 34 м2 • EOS</span>
+                            <span class="text text--content">Москва, квартира</span>
+                            <span class="text">Твой пар</span>
+                        </div>
+                    </div> 
+                    <div class="content__inner--item" data-company="Tvoy Par">
+                        <div class="content__img">
+                            <img src="img/img-7.png">
+                            <div class="content__inner--feedback">
+                                <a href="#" class="comment">
+                                    <svg><use href="sprite.svg#comment"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a>
+                                <a href="#" class="favourite">
+                                    <svg><use href="sprite.svg#like"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="content__inner--text">
+                            <span class="text text--content text--bold">Сауна • 34 м2 • EOS</span>
+                            <span class="text text--content">Москва, квартира</span>
+                            <span class="text">Твой пар</span>
+                        </div>
+                    </div> 
+                    <div class="content__inner--item" data-company="Tvoy Par">
+                        <div class="content__img">
+                            <img src="img/img-8.png">
+                            <div class="content__inner--feedback">
+                                <a href="#" class="comment">
+                                    <svg><use href="sprite.svg#comment"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a>
+                                <a href="#" class="favourite">
+                                    <svg><use href="sprite.svg#like"></use></svg>
+                                    <span class="likes-count"></span>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="content__inner--text">
+                            <span class="text text--content text--bold">Сауна • 34 м2 • EOS</span>
+                            <span class="text text--content">Москва, квартира</span>
+                            <span class="text">Твой пар</span>
+                        </div>
+                    </div> 
                 </div>
-                
-
                 <div id="filter-block" class="filter-block">
                     <div class="filter-wrapper filter-wrapper__company">
-                        <div class="filter-wrapper__header">
-                            <span>Компания</span>
-                            <svg class="arrow" id="arrow"><use href="sprite.svg#arrow"></use></svg>
+                        <div class="filter-wrapper__header"> 
+                            <div>
+                                <span>Компания</span>
+                                <span class="count"></span>
+                            </div>
+                            <svg class="arrow"><use href="sprite.svg#arrow"></use></svg>
                         </div>
-                        <div id="filter-wrapper__body" class="filter-wrapper__body">
-                            кирил поросенок
+                        <div class="filter-wrapper__body">
+                            <input class="filter-input" type="text" name="" id="" placeholder="Найти">
+                            <form class="filter-wrapper__body--list filter-companies">
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-1">
+                                <label class="options-label" for="check-1">95 градусов</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-2">
+                                <label class="options-label" for="check-2">Контакт Плюс</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-3">
+                                <label class="options-label" for="check-3">Твой пар</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-4">
+                                <label class="options-label" for="check-4">3D-сауна</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-5">
+                                <label class="options-label" for="check-5">IKI</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-6">
+                                <label class="options-label" for="check-6">95 градусов</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-7">
+                                <label class="options-label" for="check-7">Контакт Плюс</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-8">
+                                <label class="options-label" for="check-8">Твой пар</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-9">
+                                <label class="options-label" for="check-9">3D-сауна</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-10">
+                                <label class="options-label" for="check-10">IKI</label>
+
+                            </form>
+                            <a href="#" class="link link--active" id="show-more">Посмотреть все</a>
                         </div>
                     </div>
-                    <div class="filter-wrapper filter-wrapper__company">
+                    <div class="filter-wrapper filter-wrapper__cost">
                         <div class="filter-wrapper__header">
-                            <span>Цена</span>
-                            <svg class="arrow" id="arrow"><use href="sprite.svg#arrow"></use></svg>
+                            <div>
+                                <span>Цена</span>
+                                <span class="count"></span>
+                            </div>
+                            <svg class="arrow" ><use href="sprite.svg#arrow"></use></svg>
                         </div>
-                        <div id="filter-wrapper__body" class="filter-wrapper__body">
-                            кирил котя
+                        <div class="filter-wrapper__body">
+                            <form class="filter-wrapper__body--list">
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-cost-1">
+                                <label class="options-label" for="check-cost-1">до 10 000 ₽</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-cost-2">
+                                <label class="options-label" for="check-cost-2">10 001 – 30 000 ₽</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-cost-3">
+                                <label class="options-label" for="check-cost-3">30 001 – 50 000 ₽</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-cost-4">
+                                <label class="options-label" for="check-cost-4">50 000 ₽ и более</label>
+                            </form>
                         </div>
                     </div>
+                    <div class="filter-wrapper filter-wrapper__volume">
+                        <div class="filter-wrapper__header">
+                            <span>Объем</span>
+                            <svg class="arrow" ><use href="sprite.svg#arrow"></use></svg>
+                        </div>
+                        <div class="filter-wrapper__body">
+                            <form class="filter-wrapper__body--list">
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-1">
+                                <label class="options-label" for="check-volume-1">до 20 кВт</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-2">
+                                <label class="options-label" for="check-volume-2">10–20 кВт</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-3">
+                                <label class="options-label" for="check-volume-3">20–30 кВт </label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-4">
+                                <label class="options-label" for="check-volume-4">30 кВт и более </label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="filter-wrapper filter-wrapper__volume">
+                        <div class="filter-wrapper__header">
+                            <span>Объем парной</span>
+                            <svg class="arrow arrow-not-active" ><use href="sprite.svg#arrow"></use></svg>
+                        </div>
+                        <div class="filter-wrapper__body not-active">
+                            <form class="filter-wrapper__body--list">
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-room-1">
+                                <label class="options-label" for="check-volume-room-1">до 20 м2</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-room-2">
+                                <label class="options-label" for="check-volume-room-2">10–20 м2</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-room-3">
+                                <label class="options-label" for="check-volume-room-3">20–30 м </label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="filter-wrapper">
+                        <div class="filter-wrapper__header">
+                            <span>Парогенератор</span>
+                            <div class="switch">
+                                <input class="switch-toggle" type="checkbox" id="switch">
+                                <label class="switch-label" for="switch"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-wrapper filter-wrapper__control">
+                        <div class="filter-wrapper__header">
+                            <span>Управление</span>
+                            <svg class="arrow arrow-not-active" ><use href="sprite.svg#arrow"></use></svg>
+                        </div>
+                        <div class="filter-wrapper__body not-active">
+                            <form class="filter-wrapper__body--list">
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-room-1">
+                                <label class="options-label" for="check-volume-room-1">до 20 м2</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-room-2">
+                                <label class="options-label" for="check-volume-room-2">10–20 м2</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-room-3">
+                                <label class="options-label" for="check-volume-room-3">20–30 м </label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="filter-wrapper filter-wrapper__install">
+                        <div class="filter-wrapper__header">
+                            <span>Установка</span>
+                            <svg class="arrow arrow-not-active" ><use href="sprite.svg#arrow"></use></svg>
+                        </div>
+                        <div class="filter-wrapper__body not-active">
+                            <form class="filter-wrapper__body--list">
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-room-1">
+                                <label class="options-label" for="check-volume-room-1">до 20 м2</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-room-2">
+                                <label class="options-label" for="check-volume-room-2">10–20 м2</label>
+
+                                <input class="options-checkbox" type="checkbox" name="options" id="check-volume-room-3">
+                                <label class="options-label" for="check-volume-room-3">20–30 м </label>
+                            </form>
+                        </div>
+                    </div>
+                    <button class="button button--reset" type="reset">Очистить фильтр</button>
                 </div>
             </div>
         </div>
@@ -116,22 +398,11 @@
     
 </body>
 </html>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/filter-show-hide.js"></script>
-<script>
-    $(document).ready(function($) {
-    let timesClicked = 0;
-
-    $('.filter-wrapper__header').on("click",function(event) {
-        timesClicked++;
-        if (timesClicked % 2 == 0) {;
-            document.getElementById('arrow').style.transform = 'rotate(180deg)';
-            document.getElementById('filter-wrapper__body').style.display = 'none';
-        }
-        else {
-            document.getElementById('arrow').style.transform = 'rotate(360deg)';
-            document.getElementById('filter-wrapper__body').style.display = 'block';
-        }        
-    });
-});
-</script>
+<script src="js/filter-more-information.js"></script>
+<script src="js/likes.js"></script>
+<script src="js/reset-button.js"></script>
+<script src="js/count-properties.js"></script>
+<script src="js/filter-company-showmore.js"></script>
