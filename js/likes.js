@@ -3,7 +3,8 @@ $(document).ready(function($) {
         e.textContent = Math.floor(Math.random(1000) * 100);
     }
     
-    $('.favourite').on("click",function() {
+    $('.favourite').on("click",function(event) {
+        event.preventDefault();
         let likeIcon = this.children[0];
         let likes = this.children[1];
         let count = likes.textContent;

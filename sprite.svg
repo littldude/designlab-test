@@ -36,5 +36,25 @@
 	        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 1C3.46243 1 1 3.46243 1 6.5C1 9.01755 2.6915 11.14 5 11.793V15L8.6 12H9.5C12.5376 12 15 9.53757 15 6.5C15 3.46243 12.5376 1 9.5 1H6.5Z" fill="white"/>
         </g>
     </symbol>
+    <symbol id="menu" viewBox="0 0 24 24">
+        <g>
+	        <rect x="1" y="4" width="22" height="3" rx="1" fill="#AFB3BB"/>
+            <rect x="1" y="11" width="13" height="3" rx="1" fill="#AFB3BB"/>
+            <rect x="1" y="18" width="18" height="3" rx="1" fill="#AFB3BB"/>
+        </g>
+    </symbol>
+    <symbol id="cross" viewBox="0 0 16 16">
+        <g>
+	        <path d="M3 3L13 13" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M13 3L3 13" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+    </symbol>
+    <symbol id="filterMob" viewBox="0 0 16 16">
+        <g>
+	        <line x1="2" y1="4" x2="14" y2="4" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="4" y1="8" x2="12" y2="8" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="6" y1="12" x2="10" y2="12" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+    </symbol>
 </svg>
 

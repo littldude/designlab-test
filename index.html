@@ -19,7 +19,7 @@
                     <a href="#" class="header__logo">
                         <span>Pro Spa</span>
                     </a>
-                    <div class="header__menu">
+                    <div class="header__menu header__menu--desktop">
                         <a href="#" class="header__menu--item active">Сауны</a>
                         <a href="#" class="header__menu--item link">Бани</a>
                         <a href="#" class="header__menu--item link">Хаммамы</a>
@@ -30,6 +30,15 @@
                             <svg><use href="sprite.svg#arrow"></use></svg>
                         </a>
                     </div>
+                    <div class="header__menu header__menu--mob">
+                        <a href="#" class="header__menu--item link">Сауны<svg><use href="sprite.svg#arrow"></use></svg></a>
+                        <a href="#" class="header__menu--item link">Бани <svg><use href="sprite.svg#arrow"></use></svg></a>
+                        <a href="#" class="header__menu--item link">Хаммамы <svg><use href="sprite.svg#arrow"></use></svg></a>
+                        <a href="#" class="header__menu--item link">Бассейны <svg><use href="sprite.svg#arrow"></use></svg></a>
+                        <a href="#" class="header__menu--item link">SPA-комплексы <svg><use href="sprite.svg#arrow"></use></svg></a>
+                        <a href="#" class="header__menu--item link">Камины <svg><use href="sprite.svg#arrow"></use></svg></a>
+                        <a href="#" class="header__menu--item link link--more">Еще разделы<svg><use href="sprite.svg#arrow"></use></svg></a>
+                    </div>
                 </div>
                 <div class="header__inner--col login">
                     <a href="#" class="header__login--item">
@@ -37,6 +46,9 @@
                     </a>
                     <a href="#" class="header__login--item">
                         <svg><use href="sprite.svg#favourite"></use></svg>
+                    </a>
+                    <a href="#" class="header__mob">
+                        <span></span>
                     </a>
                     <a href="#" class="header__login--item button button--order">Заказать проект</a>
                     <a href="#" class="header__login--item button button--main">Войти</a>
@@ -64,18 +76,19 @@
             </ul>
             <div class="filter">
                 <div class="filter__inner">
-                    <a href="#" class="filter__inner--item active">Сначала популярные</a>
-                    <a href="#" class="filter__inner--item link">Новизна</a>
-                    <a href="#" class="filter__inner--item link">Цена</a>
+                    <a href="#" class="filter__inner--item link filter__inner--item__mob"><svg class="arrow"><use href="sprite.svg#filterMob"></use></svg>Сначала новые</a>
+                    <a href="#" class="filter__inner--item filter__inner--item__popular active">Сначала популярные</a>
+                    <a href="#" class="filter__inner--item filter__inner--item__date link">Новизна</a>
+                    <a href="#" class="filter__inner--item link filter__inner--item__price">Цена</a>
                 </div>
                 <a id="filter__button" class="filter__button" href="#">
                     <svg><use href="sprite.svg#filter"></use></svg>
-                    <span id="link--filter" class="link--filter">Скрыть фильтр</span>
+                    <span id="link--filter" class="link--filter"></span>
                 </a>
             </div>
             <div class="content" id="content">
                 <div class="content__inner">
-                    <div class="content__inner--item" data-company="Tvoy Par">
+                    <div class="content__inner--item" data-date="8" data-popular="2" data-price="1">
                         <div class="content__img">
                             <img src="img/img-1.png">
                             <div class="content__inner--feedback">
@@ -95,7 +108,7 @@
                             <span class="text">Твой пар</span>
                         </div>
                     </div> 
-                    <div class="content__inner--item" data-company="Tvoy Par">
+                    <div class="content__inner--item" data-date="9" data-popular="1" data-price="3">
                         <div class="content__img">
                             <img src="img/img-2.png">
                             <div class="content__inner--feedback">
@@ -115,7 +128,7 @@
                             <span class="text">Твой пар</span>
                         </div>
                     </div> 
-                    <div class="content__inner--item" data-company="Tvoy Par">
+                    <div class="content__inner--item" data-date="5" data-popular="9" data-price="2">
                         <div class="content__img">
                             <img src="img/img-3.png">
                             <div class="content__inner--feedback">
@@ -135,7 +148,7 @@
                             <span class="text">Твой пар</span>
                         </div>
                     </div> 
-                    <div class="content__inner--item" data-company="Tvoy Par">
+                    <div class="content__inner--item" data-date="6" data-popular="3" data-price="9">
                         <div class="content__img">
                             <img src="img/img-4.png">
                             <div class="content__inner--feedback">
@@ -155,7 +168,7 @@
                             <span class="text">Твой пар</span>
                         </div>
                     </div> 
-                    <div class="content__inner--item" data-company="Tvoy Par">
+                    <div class="content__inner--item" data-date="2" data-popular="7" data-price="5">
                         <div class="content__img">
                             <img src="img/img-5.png">
                             <div class="content__inner--feedback">
@@ -175,7 +188,7 @@
                             <span class="text">Твой пар</span>
                         </div>
                     </div> 
-                    <div class="content__inner--item" data-company="Tvoy Par">
+                    <div class="content__inner--item" data-date="1" data-popular="5" data-price="8">
                         <div class="content__img">
                             <img src="img/img-6.png">
                             <div class="content__inner--feedback">
@@ -195,7 +208,7 @@
                             <span class="text">Твой пар</span>
                         </div>
                     </div> 
-                    <div class="content__inner--item" data-company="Tvoy Par">
+                    <div class="content__inner--item" data-date="4" data-popular="4" data-price="3">
                         <div class="content__img">
                             <img src="img/img-7.png">
                             <div class="content__inner--feedback">
@@ -215,7 +228,7 @@
                             <span class="text">Твой пар</span>
                         </div>
                     </div> 
-                    <div class="content__inner--item" data-company="Tvoy Par">
+                    <div class="content__inner--item" data-date="7" data-popular="3" data-price="6">
                         <div class="content__img">
                             <img src="img/img-8.png">
                             <div class="content__inner--feedback">
@@ -237,6 +250,12 @@
                     </div> 
                 </div>
                 <div id="filter-block" class="filter-block">
+                    <div class="filter-block__header">
+                        <span>Фильтр</span>
+                        <a href="#" class="">
+                            <svg class="arrow"><use href="sprite.svg#cross"></use></svg>
+                        </a>
+                    </div>
                     <div class="filter-wrapper filter-wrapper__company">
                         <div class="filter-wrapper__header"> 
                             <div>
@@ -308,7 +327,10 @@
                     </div>
                     <div class="filter-wrapper filter-wrapper__volume">
                         <div class="filter-wrapper__header">
-                            <span>Объем</span>
+                            <div>
+                                <span>Объем</span>
+                                <span class="count"></span>
+                            </div>
                             <svg class="arrow" ><use href="sprite.svg#arrow"></use></svg>
                         </div>
                         <div class="filter-wrapper__body">
@@ -329,7 +351,11 @@
                     </div>
                     <div class="filter-wrapper filter-wrapper__volume">
                         <div class="filter-wrapper__header">
-                            <span>Объем парной</span>
+                           
+                            <div>
+                                <span>Объем парной</span>
+                                <span class="count"></span>
+                            </div>
                             <svg class="arrow arrow-not-active" ><use href="sprite.svg#arrow"></use></svg>
                         </div>
                         <div class="filter-wrapper__body not-active">
@@ -356,7 +382,10 @@
                     </div>
                     <div class="filter-wrapper filter-wrapper__control">
                         <div class="filter-wrapper__header">
-                            <span>Управление</span>
+                            <div>
+                                <span>Управление</span>
+                                <span class="count"></span>
+                            </div>
                             <svg class="arrow arrow-not-active" ><use href="sprite.svg#arrow"></use></svg>
                         </div>
                         <div class="filter-wrapper__body not-active">
@@ -374,7 +403,11 @@
                     </div>
                     <div class="filter-wrapper filter-wrapper__install">
                         <div class="filter-wrapper__header">
-                            <span>Установка</span>
+                            <div>
+                                <span>Установка</span>
+                                <span class="count"></span>
+                            </div>
+    
                             <svg class="arrow arrow-not-active" ><use href="sprite.svg#arrow"></use></svg>
                         </div>
                         <div class="filter-wrapper__body not-active">
@@ -395,7 +428,6 @@
             </div>
         </div>
     </section>
-    
 </body>
 </html>
 
@@ -406,3 +438,6 @@
 <script src="js/reset-button.js"></script>
 <script src="js/count-properties.js"></script>
 <script src="js/filter-company-showmore.js"></script>
+<script src="js/mobile-menu.js"></script>
+<script src="js/sorting.js"></script>
+
