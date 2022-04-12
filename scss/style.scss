@@ -3,6 +3,7 @@ $black: #000000;
 $gray: #333333;
 $white: #ffffff;
 $gray-middle: #52575F;
+$not-active: #AFB3BB;
 @font-face {
     font-family: 'Gilroy';
     font-style: normal;
@@ -80,7 +81,7 @@ input {
         align-items: center;
     }
     &--more {
-        color: #AFB3BB;
+        color: $not-active;
         display: flex;
         align-items: center;
         svg {
@@ -331,17 +332,11 @@ input {
             }
         }
     }
-    // &__inner {
-    //     margin-top: 43px;
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: space-between;
-    // }
 }
 .content {
     display: flex;
     margin-top: 21px;
-    &__inner {
+    &__cards {
         width: 100%;
         height: fit-content;
         display: grid;
@@ -350,6 +345,9 @@ input {
         grid-row-gap: 41px;
         justify-items: stretch;
         align-items: start;
+    }
+    &__inner {
+        width: 100%;
         &--item {
             width: auto;
             width: auto;
@@ -513,7 +511,7 @@ input {
                 color: $gray;
                 &:last-child {
                     font-weight: 400;
-                    color: #AFB3BB;
+                    color: $not-active;
                 }
             }
             svg {
@@ -549,7 +547,7 @@ input {
         font-weight: 500;
         font-size: 14px;
         line-height: 24px;
-        color: #AFB3BB;
+        color: $not-active;
         &:focus {
             color: $gray;
         }
@@ -605,8 +603,8 @@ input {
         &::after {
             content: "";
             position: absolute;
-            top: 6px;
-            left: 6px;
+            top: 14px;
+            left: 14px;
             display: block;
             width: 24px;
             height: 24px;
@@ -638,7 +636,7 @@ input {
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #AFB3BB;
+        background-color: $not-active;
         transition: .4s;
         border-radius: 16px;
         cursor: pointer;
@@ -681,7 +679,7 @@ input {
         }
     }
     .content {
-        &__inner {
+        &__cards {
             grid-template-columns: repeat(2, 1fr);
         }
     }
@@ -711,7 +709,7 @@ input {
                 display: block;
                 width: 13px;
                 height: 3px;
-                background-color: #AFB3BB;
+                background-color: $not-active;
                 border-radius: 1px;
                 position: relative;
                 &::before, 
@@ -719,7 +717,7 @@ input {
                     position: absolute;
                     content: '';
                     display: block;
-                    background-color: #AFB3BB;
+                    background-color: $not-active;
                     transition: .2s linear;
                     border-radius: 1px;
                 }
@@ -836,12 +834,31 @@ input {
     }
     .content {
         display: block;
-        &__inner {
+        &__cards {
             grid-template-columns: 1fr;
+        }
+        &__inner {
             &--item {
-                &:nth-child(n+4) {
+                &:nth-child(4),
+                &:nth-child(5),
+                &:nth-child(6),
+                &:nth-child(7),
+                &:nth-child(8),
+                &:nth-child(9),
+                &:nth-child(10),
+                &:nth-child(11),
+                &:nth-child(12),
+                &:nth-child(13),
+                &:nth-child(14),
+                &:nth-child(15),
+                &:nth-child(16),
+                &:nth-child(17),
+                &:nth-child(18),
+                &:nth-child(19),
+                &:nth-child(20) {
                     display: none;
                 }
+                
             }
         }
     }
